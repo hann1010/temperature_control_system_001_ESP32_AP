@@ -4,6 +4,10 @@
 // Load Wi-Fi library
 #include <WiFi.h>
 
+// Replace with your network ID
+const char* ssid     = "Temp_Cont_Sys-AP";
+const char* password = "987236170";
+
 void setup() {
   // put your setup code here, to run once:
 
