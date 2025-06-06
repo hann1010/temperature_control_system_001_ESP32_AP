@@ -8,6 +8,9 @@
 const char* ssid     = "Temp_Cont_Sys-AP";
 const char* password = "987236170";
 
+// Set web server port number
+WiFiServer server(80);
+
 void setup() {
   // put your setup code here, to run once:
 
