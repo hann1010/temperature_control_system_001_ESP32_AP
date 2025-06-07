@@ -14,6 +14,13 @@ WiFiServer server(80);
 // Variable to store the HTTP request
 String header;
 
+// Variable to temperatures
+float heating_burner;
+float heating_tanktop;
+float heating_inline;
+float heating_hotwater;
+float outdoor;
+
 void setup() {
   // put your setup code here, to run once:
 
