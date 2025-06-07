@@ -11,6 +11,9 @@ const char* password = "987236170";
 // Set web server port number
 WiFiServer server(80);
 
+// Variable to store the HTTP request
+String header;
+
 void setup() {
   // put your setup code here, to run once:
 
