@@ -40,6 +40,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+ // Listen for incoming clients
+  WiFiClient client = server.available();
 }
