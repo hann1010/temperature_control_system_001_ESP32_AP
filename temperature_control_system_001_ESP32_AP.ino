@@ -22,8 +22,21 @@ float heating_hotwater;
 float outdoor;
 
 void setup() {
-  // put your setup code here, to run once:
+  Serial.println("Setup start.. ");
+  Serial.begin(115200);
 
+  // Connect to Wi-Fi network with SSID and password
+  Serial.print("Setting AP (Access Point)…");
+  // Remove the password parameter, if you want the AP (Access Point) to be open
+  WiFi.softAP(ssid, password);
+
+  IPAddress IP = WiFi.softAPIP();
+  Serial.print("Access Point IP address is: ");
+  Serial.println(IP);
+
+  server.begin();
+
+  Serial.println("Setup done");
 }
 
 void loop() {
