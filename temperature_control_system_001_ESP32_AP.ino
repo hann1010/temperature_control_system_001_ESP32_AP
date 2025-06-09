@@ -47,4 +47,8 @@ void loop() {
   if (client) {
     Serial.println("New Client.");
     String currentLine = "";
+    // loop while the client's connected
+    while (client.connected()) {
+      // if there's bytes to read from the client,
+      if (client.available()) {
 }
