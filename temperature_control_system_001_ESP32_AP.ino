@@ -42,4 +42,9 @@ void setup() {
 void loop() {
  // Listen for incoming clients
   WiFiClient client = server.available();
+
+  // If a new client connects
+  if (client) {
+    Serial.println("New Client.");
+    String currentLine = "";
 }
