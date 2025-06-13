@@ -78,4 +78,7 @@ void loop() {
             client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
             client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
             client.println("</style></head>");
+
+            // Web Page Heading
+            client.println("<body><h1>Access Point for temperature control 001</h1>");
 }
