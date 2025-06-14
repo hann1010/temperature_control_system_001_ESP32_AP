@@ -82,5 +82,5 @@ void loop() {
             // Web Page Heading
             client.println("<body><h1>Access Point for temperature control 001</h1>");
 
-            client.println("<style>html {text-align: left;}</style>");
+            client.println("<style>html {text-align: left;}></style>");
 }
