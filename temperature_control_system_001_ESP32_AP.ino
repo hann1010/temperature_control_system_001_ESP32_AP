@@ -85,7 +85,7 @@ void loop() {
             client.println("<style>html {text-align: left;}></style>");
             
             // Web Page content
-            client.print("<p>Heating burner</p>");
+            client.print("<p>Heating burner");
             //client.print(heating_burner);
             client.println("</p>");
 }
