@@ -88,4 +88,6 @@ void loop() {
             client.print("<p>Heating burner");
             //client.print(heating_burner);
             client.println("</p>");
+
+            client.println("</body></html>");
 }
