@@ -83,4 +83,9 @@ void loop() {
             client.println("<body><h1>Access Point for temperature control 001</h1>");
 
             client.println("<style>html {text-align: left;}></style>");
+            
+            // Web Page content
+            client.print("<p>Heating burner</p>");
+            //client.print(heating_burner);
+            client.println("</p>");
 }
