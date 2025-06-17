@@ -96,4 +96,8 @@ void loop() {
 
             // Break out of the while loop
             break;
+
+            } else { // if you got a newline, then clear currentLine
+            currentLine = "";
+            }
 }
