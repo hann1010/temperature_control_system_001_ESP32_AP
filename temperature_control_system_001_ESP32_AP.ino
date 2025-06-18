@@ -104,4 +104,7 @@ void loop() {
         currentLine += c;      // add it to the end of the currentLine
         }
       }
+    }
+    // Clear the header variable
+    header = "";
 }
