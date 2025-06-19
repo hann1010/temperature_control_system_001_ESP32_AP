@@ -75,18 +75,16 @@ void loop() {
             client.println("<link rel=\"icon\" href=\"data:,\">");
             // CSS to style the on/off buttons 
             // Feel free to change the background-color and font-size attributes to fit your preferences
-            client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
+            client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: left;}");
             client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
             client.println("</style></head>");
 
             // Web Page Heading
             client.println("<body><h1>Access Point for temperature control 001</h1>");
 
-            client.println("<style>html {text-align: left;}></style>");
-            
             // Web Page content
-            client.print("<p>Heating burner");
-            //client.print(heating_burner);
+            client.print("<p>Heating burner: ");
+            client.print(heating_burner);
             client.println("</p>");
 
             client.println("</body></html>");
