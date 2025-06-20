@@ -89,6 +89,9 @@ void loop() {
             client.print("<p>Heating tanktop: ");
             client.print(heating_tanktop);
             client.println("</p>");
+            client.print("<p>Heating inline: ");
+            client.print(heating_inline);
+            client.println("</p>");
 
             client.println("</body></html>");
 
