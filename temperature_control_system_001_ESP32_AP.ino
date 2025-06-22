@@ -29,7 +29,7 @@ void setup() {
   Serial.print("Setting AP (Access Point)…");
   
   // Remove the password parameter, if you want the AP (Access Point) to be open
-  WiFi.softAP("test2222");
+  WiFi.softAP("");
   WiFi.softAP(ssid, password);
   //WiFi.softAP(ssid);
   //WiFi.softAP("test");
