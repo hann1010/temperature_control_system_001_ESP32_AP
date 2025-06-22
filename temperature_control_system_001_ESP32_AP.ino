@@ -32,7 +32,6 @@ void setup() {
   WiFi.softAP("");
   WiFi.softAP(ssid, password);
   //WiFi.softAP(ssid);
-  //WiFi.softAP("test");
   IPAddress IP = WiFi.softAPIP();
   Serial.print("Access Point IP address is: ");
   Serial.println(IP);
