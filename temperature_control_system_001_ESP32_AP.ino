@@ -14,6 +14,9 @@ WiFiServer server(80);
 // Variable to store the HTTP request
 String header;
 
+// Assign input variables to GPIO pins
+const int input25 = 25;
+
 // Variable to temperatures
 float heating_burner;
 float heating_tanktop;
