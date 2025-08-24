@@ -16,6 +16,7 @@ String header;
 
 // Assign input variables to GPIO pins
 const int input25 = 25;
+const int input26 = 26;
 
 // Variable to temperatures
 float heating_burner;
