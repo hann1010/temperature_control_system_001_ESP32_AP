@@ -30,6 +30,9 @@ void setup() {
   Serial.println("Setup start.. ");
   Serial.begin(115200);
 
+  // Initialize the inpur variables as input
+  pinMode(input25, INPUT);
+
   // Connect to Wi-Fi network with SSID and password
   Serial.print("Setting AP (Access Point)…");
   
