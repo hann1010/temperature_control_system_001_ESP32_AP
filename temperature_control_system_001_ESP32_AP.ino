@@ -26,6 +26,10 @@ float heating_inline;
 float heating_hotwater;
 float outdoor;
 
+// Define TX and RX pins for UART (change if needed)
+#define TXD1 19
+#define RXD1 21
+
 void setup() {
   Serial.println("Setup start.. ");
   Serial.begin(115200);
