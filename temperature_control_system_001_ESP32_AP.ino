@@ -30,6 +30,9 @@ float outdoor;
 #define TXD1 19
 #define RXD1 21
 
+// Use Serial1 for UART communication
+HardwareSerial mySerial(2);
+
 void setup() {
   Serial.println("Setup start.. ");
   Serial.begin(115200);
