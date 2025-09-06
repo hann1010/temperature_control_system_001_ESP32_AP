@@ -36,6 +36,7 @@ HardwareSerial mySerial(2);
 void setup() {
   Serial.println("Setup start.. ");
   Serial.begin(115200);
+  mySerial.begin(9600, SERIAL_8N1, RXD1, TXD1);  // UART setup
 
   // Initialize the inpur variables as input
   pinMode(input25, INPUT);
