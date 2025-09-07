@@ -146,3 +146,7 @@ void loop() {
     Serial.println("");
   }
 }
+
+void testReadData() {
+  // Check if data is available to read
+}
