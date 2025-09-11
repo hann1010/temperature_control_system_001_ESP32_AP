@@ -151,4 +151,5 @@ void testReadData() {
   // Check if data is available to read
   if (mySerial.available()) {
     // Read data and display it
+    String message = mySerial.readStringUntil('\n');
 }
