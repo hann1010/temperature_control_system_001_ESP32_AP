@@ -152,4 +152,5 @@ void testReadData() {
   if (mySerial.available()) {
     // Read data and display it
     String message = mySerial.readStringUntil('\n');
+    Serial.println("Received: " + message);
 }
