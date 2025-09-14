@@ -60,7 +60,8 @@ void setup() {
 }
 
 void loop() {
- // Listen for incoming clients
+  testReadData(); // for Uart testing
+  // Listen for incoming clients
   WiFiClient client = server.available();
 
   // If a new client connects
