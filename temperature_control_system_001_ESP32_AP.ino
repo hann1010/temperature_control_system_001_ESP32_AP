@@ -156,3 +156,7 @@ void testReadData() {
     Serial.println("Received: " + message);
   }
 }
+
+void readData() {
+
+}
