@@ -160,4 +160,5 @@ void testReadData() {
 void readData() {
   // Check if data is available to read
   if (mySerial.available()) {
+    // Read data to dataTemp
 }
