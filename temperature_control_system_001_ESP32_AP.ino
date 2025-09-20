@@ -162,4 +162,5 @@ void readData() {
   if (mySerial.available()) {
     // Read data to dataTemp
     String dataTemp = mySerial.readStringUntil('\n');
+  }
 }
