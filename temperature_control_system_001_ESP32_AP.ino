@@ -162,5 +162,8 @@ void readData() {
   if (mySerial.available()) {
     // Read data to dataTemp
     String dataTemp = mySerial.readStringUntil('\n');
+    if ( input25 == 0 and input26 == 0 and input27 == 0) { 
+
+    }
   }
 }
