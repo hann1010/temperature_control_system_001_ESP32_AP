@@ -163,7 +163,7 @@ void readData() {
     // Read data to dataTemp
     String dataTemp = mySerial.readStringUntil('\n');
     if ( input25 == false && input26 == false && input27 == false) { 
-
+      heating_burner = dataTemp;
     }
   }
 }
