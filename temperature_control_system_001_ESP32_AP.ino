@@ -166,7 +166,7 @@ void readData() {
       heating_burner = dataTemp;
     }
     if (input25 == true && input26 == false && input27 == false) { //01H
-      //heating_burner = dataTemp;
+      heating_tanktop = dataTemp;
     }
   }
 }
