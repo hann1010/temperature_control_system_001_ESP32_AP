@@ -168,5 +168,8 @@ void readData() {
     if (input25 == true && input26 == false && input27 == false) { //01H
       heating_tanktop = dataTemp;
     }
+    if (input25 == false && input26 == true && input27 == false) { //02H
+      //heating_tanktop = dataTemp;
+    }
   }
 }
