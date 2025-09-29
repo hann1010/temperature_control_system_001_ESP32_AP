@@ -171,5 +171,8 @@ void readData() {
     if (input25 == false && input26 == true && input27 == false) { //02H
       heating_inline = dataTemp;
     }
+    if (input25 == true && input26 == true && input27 == false) { //03H
+      //heating_inline = dataTemp;
+    }
   }
 }
