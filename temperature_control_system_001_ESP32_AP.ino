@@ -175,7 +175,7 @@ void readData() {
       heating_hotwater = dataTemp;
     }
     if (input25 == false && input26 == false && input27 == true) { //04H
-      //heating_hotwater = dataTemp;
+      outdoor = dataTemp;
     }
   }
 }
