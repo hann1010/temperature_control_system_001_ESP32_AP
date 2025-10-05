@@ -123,6 +123,8 @@ void loop() {
             client.print("<p>Up time (min): ");
             client.print(millis()/60000);
             client.println("</p>");
+            client.print("<p>Version: TCS_001_2025 ");
+            client.println("</p>");
 
             client.println("</body></html>");
 
