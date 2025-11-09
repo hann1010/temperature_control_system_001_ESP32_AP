@@ -39,9 +39,7 @@ void setup() {
   mySerial.begin(9600, SERIAL_8N1, RXD1, TXD1);  // UART setup
 
   // Initialize the inpur variables as input
-  pinMode(input25, INPUT);
-  pinMode(input26, INPUT);
-  pinMode(input27, INPUT);
+
 
   // Connect to Wi-Fi network with SSID and password
   Serial.print("Setting AP (Access Point)…");
