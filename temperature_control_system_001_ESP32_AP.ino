@@ -15,9 +15,7 @@ WiFiServer server(80);
 String header;
 
 // Assign input variables to GPIO pins
-const int input25 = 25;
-const int input26 = 26;
-const int input27 = 27;
+
 
 // Variable to temperatures
 float heating_burner;
