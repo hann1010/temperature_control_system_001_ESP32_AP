@@ -169,25 +169,8 @@ void testReadData() {
   }
 }
 
-/*void readData() {
+void readData() {
   // Check if data is available to read
   if (mySerial.available()) {
-    // Read data to dataTemp
-    String dataTemp = mySerial.readStringUntil('\n');
-    if (input25 == false && input26 == false && input27 == false) { //00H
-      heating_burner = dataTemp;
-    }
-    if (input25 == true && input26 == false && input27 == false) { //01H
-      heating_tanktop = dataTemp;
-    }
-    if (input25 == false && input26 == true && input27 == false) { //02H
-      heating_inline = dataTemp;
-    }
-    if (input25 == true && input26 == true && input27 == false) { //03H
-      heating_hotwater = dataTemp;
-    }
-    if (input25 == false && input26 == false && input27 == true) { //04H
-      outdoor = dataTemp;
-    }
-  }
-}*/
+    // Read data and display it for debug
+}
