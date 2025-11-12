@@ -175,4 +175,5 @@ void readData() {
     // Read data and display it for debug
     String ditem, dvalue;
     String tData = mySerial.readStringUntil('\n');
+    for (int i = 0; i < tData.length(); i++) {
 }
