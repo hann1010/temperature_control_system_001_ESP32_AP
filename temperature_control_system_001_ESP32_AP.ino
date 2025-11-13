@@ -173,9 +173,9 @@ void readData() {
   // Check if data is available to read
   if (mySerial.available()) {
     // Read data and display it for debug
-    String ditem, dvalue;
+    String dItem, dValue;
     String tData = mySerial.readStringUntil('\n');
     for (int i = 0; i < tData.length(); i++) {
       if (tData.substring(i, i+1) == "#") {
-        ditem = tData.substring(0, i);
+        dItem = tData.substring(0, i);
 }
