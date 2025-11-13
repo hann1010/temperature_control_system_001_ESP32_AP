@@ -177,4 +177,5 @@ void readData() {
     String tData = mySerial.readStringUntil('\n');
     for (int i = 0; i < tData.length(); i++) {
       if (tData.substring(i, i+1) == "#") {
+        ditem = tData.substring(0, i);
 }
