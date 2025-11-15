@@ -181,5 +181,6 @@ void readData() {
         dValue = tData.substring(0, i);
         break;
       }
+    }
   }
 }
