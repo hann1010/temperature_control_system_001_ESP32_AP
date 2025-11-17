@@ -172,7 +172,7 @@ void testReadData() {
 void readData() {
   // Check if data is available to read
   if (mySerial.available()) {
-    // Read data and display it for debug
+    // Read data for HTML web page
     String dItem, dValue;
     String tData = mySerial.readStringUntil('\n');
     for (int i = 0; i < tData.length(); i++) {
