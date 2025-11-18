@@ -20,7 +20,7 @@ String header;
 // Variable to temperatures
 String heating_burner;
 String heating_tanktop;
-float heating_inline;
+String heating_inline;
 float heating_hotwater;
 float outdoor;
 
@@ -186,6 +186,8 @@ void readData() {
       heating_burner = dValue;
     } else if (dItem == "Tanktop") {
       heating_tanktop = dValue;
+    } else if (dItem == "Inline") {
+      heating_inline = dValue;
     }
   }
 }
