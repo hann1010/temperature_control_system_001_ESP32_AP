@@ -22,7 +22,7 @@ String heating_burner;
 String heating_tanktop;
 String heating_inline;
 String heating_hotwater;
-float outdoor;
+String outdoor;
 
 // Define TX and RX pins for UART (change if needed)
 #define TXD1 19
@@ -190,6 +190,8 @@ void readData() {
       heating_inline = dValue;
     } else if (dItem == "Hotwater") {
       heating_hotwater = dValue;
+    } else if (dItem == "Outdoor") {
+      outdoor = dValue;
     }
   }
 }
