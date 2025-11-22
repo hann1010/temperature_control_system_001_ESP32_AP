@@ -56,8 +56,8 @@ void setup() {
 }
 
 void loop() {
-  testReadData(); // for Uart testing
-  //readData(); // for Uart read all temperatures
+  //testReadData(); // for Uart testing
+  readData(); // for Uart read all temperatures
   // Listen for incoming clients
   WiFiClient client = server.available();
 
