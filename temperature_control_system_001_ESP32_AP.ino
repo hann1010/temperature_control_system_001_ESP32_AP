@@ -84,7 +84,8 @@ void loop() {
             client.println("Content-type:text/html");
             client.println("Connection: close");
             client.println();
-
+            client.println("<script> setTimeout(function(){");
+            client.println("location.reload(); }, 10000); </script>");
             // palce for functional code
 
             // Display the HTML web page
