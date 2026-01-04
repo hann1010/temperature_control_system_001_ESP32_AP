@@ -120,6 +120,9 @@ void loop() {
             client.print(outdoor);
             client.println("</p>");
             client.print("<p>Up time (min): ");
+            client.print(String uptime_m);
+            client.println("</p>");
+            client.print("<p>Up time AP (min): ");
             client.print(millis()/60000);
             client.println("</p>");
             client.print("<p>Version: TCS_001_2025 ");
