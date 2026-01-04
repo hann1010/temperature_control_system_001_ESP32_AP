@@ -23,6 +23,7 @@ String heating_tanktop;
 String heating_inline;
 String heating_hotwater;
 String outdoor;
+String uptime_m;
 
 // Define TX and RX pins for UART (change if needed)
 #define TXD1 19
