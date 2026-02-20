@@ -16,7 +16,6 @@ String header;
 
 // Assign input variables to GPIO pins
 
-
 // Variable to temperatures etc.
 String heating_burner;
 String heating_tanktop;
