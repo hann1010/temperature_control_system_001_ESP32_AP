@@ -38,7 +38,6 @@ void setup() {
 
   // Initialize the inpur variables as input
 
-
   // Connect to Wi-Fi network with SSID and password
   Serial.print("Setting AP (Access Point)…");
   
