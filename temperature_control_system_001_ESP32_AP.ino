@@ -1,4 +1,5 @@
 // Access Point for temperature control 001
+// use with temperature_control_system_2-001_Mega-2560
 // en Hanna P 2025
 
 // Load Wi-Fi library
