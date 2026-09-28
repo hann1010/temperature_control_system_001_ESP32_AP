@@ -5,9 +5,9 @@
 // Load Wi-Fi library
 #include <WiFi.h>
 
-// Replace with your network ID
-const char* ssid     = "Temp_Cont_Sys-AP";
-const char* password = "987236170";
+// Replace with your network credentials (STATION)
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 // Set web server port number
 WiFiServer server(80);
