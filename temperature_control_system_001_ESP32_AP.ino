@@ -5,7 +5,7 @@
 // Load Wi-Fi library
 #include <WiFi.h>
 
-// Replace with your network credentials (STATION)
+// Replace with your network credentials (Access Point)
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
